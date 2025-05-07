@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context docBase="/Users/kairlytauk/Desktop/eHotel/eHotel/src/main/webapp">
+  <Resources cacheMaxSize="10240">
+    <PostResources base="/Users/kairlytauk/Desktop/eHotel/postgresql-42.7.5.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/postgresql-42.7.5.jar"/>
+  </Resources>
+</Context>

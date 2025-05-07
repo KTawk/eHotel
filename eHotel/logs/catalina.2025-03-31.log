@@ -1,0 +1,722 @@
+31-Mar-2025 01:24:39.083 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 01:24:39.095 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2025 01:24:39.106 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [wapp2] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2025 01:24:39.112 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 01:24:39.121 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 07:58:27.795 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.39
+31-Mar-2025 07:58:27.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 4 2025 19:02:32 UTC
+31-Mar-2025 07:58:27.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.39.0
+31-Mar-2025 07:58:27.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+31-Mar-2025 07:58:27.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.3.2
+31-Mar-2025 07:58:27.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+31-Mar-2025 07:58:27.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/kairlytauk/Library/Java/JavaVirtualMachines/openjdk-23.0.2/Contents/Home
+31-Mar-2025 07:58:27.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+31-Mar-2025 07:58:27.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Mar-2025 07:58:27.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 07:58:27.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 07:58:27.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Mar-2025 07:58:27.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Mar-2025 07:58:27.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+31-Mar-2025 07:58:27.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Mar-2025 07:58:27.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2025 07:58:27.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 07:58:27.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 07:58:27.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kairlytauk/Desktop/csi2132project/wapp2/temp
+31-Mar-2025 07:58:27.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/logging.properties
+31-Mar-2025 07:58:27.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2025 07:58:27.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=54657
+31-Mar-2025 07:58:27.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+31-Mar-2025 07:58:27.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+31-Mar-2025 07:58:27.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+31-Mar-2025 07:58:27.811 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kairlytauk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+31-Mar-2025 07:58:27.962 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 07:58:27.971 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [272] milliseconds
+31-Mar-2025 07:58:27.995 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2025 07:58:27.995 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.39]
+31-Mar-2025 07:58:27.999 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml]
+31-Mar-2025 07:58:28.207 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2025 07:58:28.223 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml] has finished in [223] ms
+31-Mar-2025 07:58:28.224 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 07:58:28.228 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [256] milliseconds
+31-Mar-2025 07:58:31.923 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/wapp2]
+31-Mar-2025 07:58:31.951 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml]
+31-Mar-2025 07:58:32.018 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2025 07:58:32.019 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml] has finished in [68] ms
+31-Mar-2025 07:58:41.709 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 07:58:41.711 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2025 07:58:41.714 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [wapp2] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2025 07:58:41.719 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 07:58:41.721 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 07:59:15.609 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+31-Mar-2025 07:59:15.616 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2025 07:59:15.627 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+31-Mar-2025 07:59:15.651 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+31-Mar-2025 08:00:48.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.39
+31-Mar-2025 08:00:48.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 4 2025 19:02:32 UTC
+31-Mar-2025 08:00:48.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.39.0
+31-Mar-2025 08:00:48.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+31-Mar-2025 08:00:48.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.3.2
+31-Mar-2025 08:00:48.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+31-Mar-2025 08:00:48.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/kairlytauk/Library/Java/JavaVirtualMachines/openjdk-23.0.2/Contents/Home
+31-Mar-2025 08:00:48.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+31-Mar-2025 08:00:48.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Mar-2025 08:00:48.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 08:00:48.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 08:00:48.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Mar-2025 08:00:48.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Mar-2025 08:00:48.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+31-Mar-2025 08:00:48.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Mar-2025 08:00:48.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2025 08:00:48.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 08:00:48.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 08:00:48.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kairlytauk/Desktop/csi2132project/wapp2/temp
+31-Mar-2025 08:00:48.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/logging.properties
+31-Mar-2025 08:00:48.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2025 08:00:48.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=49268
+31-Mar-2025 08:00:48.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+31-Mar-2025 08:00:48.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+31-Mar-2025 08:00:48.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+31-Mar-2025 08:00:48.588 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kairlytauk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+31-Mar-2025 08:00:48.868 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 08:00:48.880 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [522] milliseconds
+31-Mar-2025 08:00:48.915 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2025 08:00:48.915 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.39]
+31-Mar-2025 08:00:48.921 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml]
+31-Mar-2025 08:00:49.268 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2025 08:00:49.288 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml] has finished in [366] ms
+31-Mar-2025 08:00:49.291 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 08:00:49.295 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [414] milliseconds
+31-Mar-2025 14:46:05.452 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 14:46:05.456 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2025 14:46:05.466 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [wapp2] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2025 14:46:05.473 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 14:46:05.482 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 14:46:06.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.39
+31-Mar-2025 14:46:06.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 4 2025 19:02:32 UTC
+31-Mar-2025 14:46:06.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.39.0
+31-Mar-2025 14:46:06.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+31-Mar-2025 14:46:06.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.3.2
+31-Mar-2025 14:46:06.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+31-Mar-2025 14:46:06.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/kairlytauk/Library/Java/JavaVirtualMachines/openjdk-23.0.2/Contents/Home
+31-Mar-2025 14:46:06.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+31-Mar-2025 14:46:06.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Mar-2025 14:46:06.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 14:46:06.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 14:46:06.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Mar-2025 14:46:06.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Mar-2025 14:46:06.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+31-Mar-2025 14:46:06.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Mar-2025 14:46:06.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2025 14:46:06.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 14:46:06.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 14:46:06.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kairlytauk/Desktop/csi2132project/wapp2/temp
+31-Mar-2025 14:46:06.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/logging.properties
+31-Mar-2025 14:46:06.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2025 14:46:06.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=55033
+31-Mar-2025 14:46:06.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+31-Mar-2025 14:46:06.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+31-Mar-2025 14:46:06.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+31-Mar-2025 14:46:06.529 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kairlytauk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+31-Mar-2025 14:46:06.696 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 14:46:06.705 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [302] milliseconds
+31-Mar-2025 14:46:06.731 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2025 14:46:06.731 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.39]
+31-Mar-2025 14:46:06.736 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml]
+31-Mar-2025 14:46:06.939 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2025 14:46:06.957 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml] has finished in [220] ms
+31-Mar-2025 14:46:06.958 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 14:46:06.963 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [257] milliseconds
+31-Mar-2025 14:49:55.697 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 14:49:55.699 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2025 14:49:55.702 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [wapp2] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2025 14:49:55.705 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 14:49:55.707 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 14:49:56.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.39
+31-Mar-2025 14:49:56.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 4 2025 19:02:32 UTC
+31-Mar-2025 14:49:56.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.39.0
+31-Mar-2025 14:49:56.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+31-Mar-2025 14:49:56.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.3.2
+31-Mar-2025 14:49:56.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+31-Mar-2025 14:49:56.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/kairlytauk/Library/Java/JavaVirtualMachines/openjdk-23.0.2/Contents/Home
+31-Mar-2025 14:49:56.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+31-Mar-2025 14:49:56.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Mar-2025 14:49:56.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 14:49:56.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 14:49:56.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Mar-2025 14:49:56.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Mar-2025 14:49:56.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+31-Mar-2025 14:49:56.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Mar-2025 14:49:56.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2025 14:49:56.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 14:49:56.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 14:49:56.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kairlytauk/Desktop/csi2132project/wapp2/temp
+31-Mar-2025 14:49:56.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/logging.properties
+31-Mar-2025 14:49:56.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2025 14:49:56.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=55132
+31-Mar-2025 14:49:56.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+31-Mar-2025 14:49:56.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+31-Mar-2025 14:49:56.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+31-Mar-2025 14:49:56.518 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kairlytauk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+31-Mar-2025 14:49:56.663 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 14:49:56.672 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [243] milliseconds
+31-Mar-2025 14:49:56.688 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2025 14:49:56.688 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.39]
+31-Mar-2025 14:49:56.692 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml]
+31-Mar-2025 14:49:56.861 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2025 14:49:56.873 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml] has finished in [182] ms
+31-Mar-2025 14:49:56.875 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 14:49:56.880 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [207] milliseconds
+31-Mar-2025 14:52:07.353 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 14:52:07.354 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2025 14:52:07.357 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [wapp2] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2025 14:52:07.360 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 14:52:07.361 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 14:52:08.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.39
+31-Mar-2025 14:52:08.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 4 2025 19:02:32 UTC
+31-Mar-2025 14:52:08.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.39.0
+31-Mar-2025 14:52:08.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+31-Mar-2025 14:52:08.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.3.2
+31-Mar-2025 14:52:08.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+31-Mar-2025 14:52:08.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/kairlytauk/Library/Java/JavaVirtualMachines/openjdk-23.0.2/Contents/Home
+31-Mar-2025 14:52:08.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+31-Mar-2025 14:52:08.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Mar-2025 14:52:08.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 14:52:08.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 14:52:08.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Mar-2025 14:52:08.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Mar-2025 14:52:08.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+31-Mar-2025 14:52:08.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Mar-2025 14:52:08.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2025 14:52:08.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 14:52:08.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 14:52:08.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kairlytauk/Desktop/csi2132project/wapp2/temp
+31-Mar-2025 14:52:08.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/logging.properties
+31-Mar-2025 14:52:08.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2025 14:52:08.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=55186
+31-Mar-2025 14:52:08.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+31-Mar-2025 14:52:08.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+31-Mar-2025 14:52:08.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+31-Mar-2025 14:52:08.181 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kairlytauk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+31-Mar-2025 14:52:08.327 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 14:52:08.336 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [244] milliseconds
+31-Mar-2025 14:52:08.353 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2025 14:52:08.353 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.39]
+31-Mar-2025 14:52:08.357 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml]
+31-Mar-2025 14:52:08.530 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2025 14:52:08.542 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml] has finished in [185] ms
+31-Mar-2025 14:52:08.543 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 14:52:08.547 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [210] milliseconds
+31-Mar-2025 15:21:41.388 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 15:21:41.390 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2025 15:21:41.396 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [wapp2] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2025 15:21:41.400 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 15:21:41.402 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 15:21:42.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.39
+31-Mar-2025 15:21:42.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 4 2025 19:02:32 UTC
+31-Mar-2025 15:21:42.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.39.0
+31-Mar-2025 15:21:42.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+31-Mar-2025 15:21:42.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.3.2
+31-Mar-2025 15:21:42.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+31-Mar-2025 15:21:42.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/kairlytauk/Library/Java/JavaVirtualMachines/openjdk-23.0.2/Contents/Home
+31-Mar-2025 15:21:42.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+31-Mar-2025 15:21:42.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Mar-2025 15:21:42.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 15:21:42.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 15:21:42.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Mar-2025 15:21:42.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Mar-2025 15:21:42.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+31-Mar-2025 15:21:42.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Mar-2025 15:21:42.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2025 15:21:42.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 15:21:42.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 15:21:42.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kairlytauk/Desktop/csi2132project/wapp2/temp
+31-Mar-2025 15:21:42.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/logging.properties
+31-Mar-2025 15:21:42.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2025 15:21:42.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=55743
+31-Mar-2025 15:21:42.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+31-Mar-2025 15:21:42.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+31-Mar-2025 15:21:42.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+31-Mar-2025 15:21:42.412 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kairlytauk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+31-Mar-2025 15:21:42.762 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 15:21:42.770 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [457] milliseconds
+31-Mar-2025 15:21:42.794 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2025 15:21:42.794 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.39]
+31-Mar-2025 15:21:42.798 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml]
+31-Mar-2025 15:21:42.955 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2025 15:21:42.966 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml] has finished in [168] ms
+31-Mar-2025 15:21:42.968 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 15:21:42.972 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [201] milliseconds
+31-Mar-2025 15:30:07.929 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 15:30:07.930 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2025 15:30:07.935 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [wapp2] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2025 15:30:07.939 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 15:30:07.941 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 15:30:08.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.39
+31-Mar-2025 15:30:08.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 4 2025 19:02:32 UTC
+31-Mar-2025 15:30:08.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.39.0
+31-Mar-2025 15:30:08.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+31-Mar-2025 15:30:08.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.3.2
+31-Mar-2025 15:30:08.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+31-Mar-2025 15:30:08.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/kairlytauk/Library/Java/JavaVirtualMachines/openjdk-23.0.2/Contents/Home
+31-Mar-2025 15:30:08.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+31-Mar-2025 15:30:08.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Mar-2025 15:30:08.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 15:30:08.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 15:30:08.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Mar-2025 15:30:08.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Mar-2025 15:30:08.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+31-Mar-2025 15:30:08.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Mar-2025 15:30:08.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2025 15:30:08.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 15:30:08.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 15:30:08.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kairlytauk/Desktop/csi2132project/wapp2/temp
+31-Mar-2025 15:30:08.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/logging.properties
+31-Mar-2025 15:30:08.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2025 15:30:08.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=55878
+31-Mar-2025 15:30:08.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+31-Mar-2025 15:30:08.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+31-Mar-2025 15:30:08.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+31-Mar-2025 15:30:08.850 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kairlytauk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+31-Mar-2025 15:30:08.996 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 15:30:09.003 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [244] milliseconds
+31-Mar-2025 15:30:09.017 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2025 15:30:09.017 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.39]
+31-Mar-2025 15:30:09.021 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml]
+31-Mar-2025 15:30:09.192 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2025 15:30:09.204 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml] has finished in [184] ms
+31-Mar-2025 15:30:09.205 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 15:30:09.209 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [205] milliseconds
+31-Mar-2025 17:18:25.794 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 17:18:25.796 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2025 17:18:25.802 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [wapp2] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2025 17:18:25.811 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 17:18:25.821 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 17:18:26.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.39
+31-Mar-2025 17:18:26.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 4 2025 19:02:32 UTC
+31-Mar-2025 17:18:26.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.39.0
+31-Mar-2025 17:18:26.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+31-Mar-2025 17:18:26.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.3.2
+31-Mar-2025 17:18:26.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+31-Mar-2025 17:18:26.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/kairlytauk/Library/Java/JavaVirtualMachines/openjdk-23.0.2/Contents/Home
+31-Mar-2025 17:18:26.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+31-Mar-2025 17:18:26.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Mar-2025 17:18:26.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 17:18:26.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 17:18:26.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Mar-2025 17:18:26.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Mar-2025 17:18:26.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+31-Mar-2025 17:18:26.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Mar-2025 17:18:26.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2025 17:18:26.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 17:18:26.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 17:18:26.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kairlytauk/Desktop/csi2132project/wapp2/temp
+31-Mar-2025 17:18:26.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/logging.properties
+31-Mar-2025 17:18:26.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2025 17:18:26.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=57917
+31-Mar-2025 17:18:26.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+31-Mar-2025 17:18:26.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+31-Mar-2025 17:18:26.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+31-Mar-2025 17:18:26.785 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kairlytauk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+31-Mar-2025 17:18:26.950 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 17:18:26.958 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [283] milliseconds
+31-Mar-2025 17:18:26.976 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2025 17:18:26.976 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.39]
+31-Mar-2025 17:18:26.980 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml]
+31-Mar-2025 17:18:27.194 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2025 17:18:27.210 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml] has finished in [230] ms
+31-Mar-2025 17:18:27.212 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 17:18:27.216 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [257] milliseconds
+31-Mar-2025 17:21:54.669 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 17:21:54.670 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2025 17:21:54.674 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [wapp2] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2025 17:21:54.677 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 17:21:54.680 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 17:21:55.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.39
+31-Mar-2025 17:21:55.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 4 2025 19:02:32 UTC
+31-Mar-2025 17:21:55.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.39.0
+31-Mar-2025 17:21:55.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+31-Mar-2025 17:21:55.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.3.2
+31-Mar-2025 17:21:55.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+31-Mar-2025 17:21:55.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/kairlytauk/Library/Java/JavaVirtualMachines/openjdk-23.0.2/Contents/Home
+31-Mar-2025 17:21:55.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+31-Mar-2025 17:21:55.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Mar-2025 17:21:55.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 17:21:55.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 17:21:55.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Mar-2025 17:21:55.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Mar-2025 17:21:55.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+31-Mar-2025 17:21:55.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Mar-2025 17:21:55.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2025 17:21:55.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 17:21:55.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 17:21:55.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kairlytauk/Desktop/csi2132project/wapp2/temp
+31-Mar-2025 17:21:55.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/logging.properties
+31-Mar-2025 17:21:55.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2025 17:21:55.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=58143
+31-Mar-2025 17:21:55.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+31-Mar-2025 17:21:55.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+31-Mar-2025 17:21:55.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+31-Mar-2025 17:21:55.487 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kairlytauk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+31-Mar-2025 17:21:55.631 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 17:21:55.638 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [254] milliseconds
+31-Mar-2025 17:21:55.654 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2025 17:21:55.654 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.39]
+31-Mar-2025 17:21:55.658 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml]
+31-Mar-2025 17:21:55.835 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2025 17:21:55.847 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml] has finished in [188] ms
+31-Mar-2025 17:21:55.848 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 17:21:55.852 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [212] milliseconds
+31-Mar-2025 17:23:17.169 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 17:23:17.171 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2025 17:23:17.174 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [wapp2] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2025 17:23:17.176 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 17:23:17.178 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 17:23:17.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.39
+31-Mar-2025 17:23:17.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 4 2025 19:02:32 UTC
+31-Mar-2025 17:23:17.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.39.0
+31-Mar-2025 17:23:17.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+31-Mar-2025 17:23:17.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.3.2
+31-Mar-2025 17:23:17.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+31-Mar-2025 17:23:17.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/kairlytauk/Library/Java/JavaVirtualMachines/openjdk-23.0.2/Contents/Home
+31-Mar-2025 17:23:17.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+31-Mar-2025 17:23:17.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Mar-2025 17:23:17.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 17:23:17.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 17:23:17.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Mar-2025 17:23:17.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Mar-2025 17:23:17.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+31-Mar-2025 17:23:17.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Mar-2025 17:23:17.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2025 17:23:17.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 17:23:17.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 17:23:17.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kairlytauk/Desktop/csi2132project/wapp2/temp
+31-Mar-2025 17:23:17.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/logging.properties
+31-Mar-2025 17:23:17.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2025 17:23:17.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=58205
+31-Mar-2025 17:23:17.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+31-Mar-2025 17:23:17.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+31-Mar-2025 17:23:17.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+31-Mar-2025 17:23:17.969 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kairlytauk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+31-Mar-2025 17:23:18.126 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 17:23:18.135 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [254] milliseconds
+31-Mar-2025 17:23:18.156 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2025 17:23:18.156 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.39]
+31-Mar-2025 17:23:18.164 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml]
+31-Mar-2025 17:23:18.344 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2025 17:23:18.356 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml] has finished in [192] ms
+31-Mar-2025 17:23:18.357 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 17:23:18.361 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [225] milliseconds
+31-Mar-2025 18:16:00.801 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:16:00.803 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2025 18:16:00.808 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [wapp2] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2025 18:16:00.811 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:16:00.813 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:16:03.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.39
+31-Mar-2025 18:16:03.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 4 2025 19:02:32 UTC
+31-Mar-2025 18:16:03.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.39.0
+31-Mar-2025 18:16:03.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+31-Mar-2025 18:16:03.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.3.2
+31-Mar-2025 18:16:03.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+31-Mar-2025 18:16:03.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/kairlytauk/Library/Java/JavaVirtualMachines/openjdk-23.0.2/Contents/Home
+31-Mar-2025 18:16:03.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+31-Mar-2025 18:16:03.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Mar-2025 18:16:03.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 18:16:03.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 18:16:03.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Mar-2025 18:16:03.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Mar-2025 18:16:03.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+31-Mar-2025 18:16:03.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Mar-2025 18:16:03.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2025 18:16:03.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:59137,suspend=y,server=n
+31-Mar-2025 18:16:03.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 18:16:03.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 18:16:03.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kairlytauk/Desktop/csi2132project/wapp2/temp
+31-Mar-2025 18:16:03.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/logging.properties
+31-Mar-2025 18:16:03.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2025 18:16:03.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Users/kairlytauk/Library/Caches/JetBrains/IntelliJIdea2024.3/captureAgent/debugger-agent.jar
+31-Mar-2025 18:16:03.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.creation.stack.trace=false
+31-Mar-2025 18:16:03.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Ddebugger.agent.enable.coroutines=true
+31-Mar-2025 18:16:03.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.flows.stack.trace=true
+31-Mar-2025 18:16:03.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.mutable.state.flows.stack.trace=true
+31-Mar-2025 18:16:03.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+31-Mar-2025 18:16:03.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+31-Mar-2025 18:16:03.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+31-Mar-2025 18:16:03.565 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kairlytauk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+31-Mar-2025 18:16:03.714 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:16:03.726 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [250] milliseconds
+31-Mar-2025 18:16:03.743 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2025 18:16:03.743 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.39]
+31-Mar-2025 18:16:03.747 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml]
+31-Mar-2025 18:16:03.935 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2025 18:16:03.948 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml] has finished in [201] ms
+31-Mar-2025 18:16:03.949 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:16:03.954 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [227] milliseconds
+31-Mar-2025 18:16:34.205 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:16:34.206 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2025 18:16:34.209 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [wapp2] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2025 18:16:34.212 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:16:34.214 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:16:41.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.39
+31-Mar-2025 18:16:41.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 4 2025 19:02:32 UTC
+31-Mar-2025 18:16:41.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.39.0
+31-Mar-2025 18:16:41.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+31-Mar-2025 18:16:41.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.3.2
+31-Mar-2025 18:16:41.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+31-Mar-2025 18:16:41.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/kairlytauk/Library/Java/JavaVirtualMachines/openjdk-23.0.2/Contents/Home
+31-Mar-2025 18:16:41.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+31-Mar-2025 18:16:41.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Mar-2025 18:16:41.947 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 18:16:41.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 18:16:41.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Mar-2025 18:16:41.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Mar-2025 18:16:41.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+31-Mar-2025 18:16:41.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Mar-2025 18:16:41.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2025 18:16:41.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:59144,suspend=y,server=n
+31-Mar-2025 18:16:41.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 18:16:41.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 18:16:41.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kairlytauk/Desktop/csi2132project/wapp2/temp
+31-Mar-2025 18:16:41.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/logging.properties
+31-Mar-2025 18:16:41.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2025 18:16:41.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Users/kairlytauk/Library/Caches/JetBrains/IntelliJIdea2024.3/captureAgent/debugger-agent.jar
+31-Mar-2025 18:16:41.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.creation.stack.trace=false
+31-Mar-2025 18:16:41.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Ddebugger.agent.enable.coroutines=true
+31-Mar-2025 18:16:41.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.flows.stack.trace=true
+31-Mar-2025 18:16:41.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.mutable.state.flows.stack.trace=true
+31-Mar-2025 18:16:41.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+31-Mar-2025 18:16:41.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+31-Mar-2025 18:16:41.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+31-Mar-2025 18:16:41.961 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kairlytauk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+31-Mar-2025 18:16:42.132 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:16:42.143 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [285] milliseconds
+31-Mar-2025 18:16:42.161 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2025 18:16:42.161 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.39]
+31-Mar-2025 18:16:42.165 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml]
+31-Mar-2025 18:16:42.364 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2025 18:16:42.379 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml] has finished in [213] ms
+31-Mar-2025 18:16:42.380 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:16:42.385 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [241] milliseconds
+31-Mar-2025 18:19:05.963 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:19:05.964 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2025 18:19:05.967 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [wapp2] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2025 18:19:05.970 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:19:05.972 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:19:06.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.39
+31-Mar-2025 18:19:06.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 4 2025 19:02:32 UTC
+31-Mar-2025 18:19:06.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.39.0
+31-Mar-2025 18:19:06.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+31-Mar-2025 18:19:06.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.3.2
+31-Mar-2025 18:19:06.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+31-Mar-2025 18:19:06.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/kairlytauk/Library/Java/JavaVirtualMachines/openjdk-23.0.2/Contents/Home
+31-Mar-2025 18:19:06.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+31-Mar-2025 18:19:06.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Mar-2025 18:19:06.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 18:19:06.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 18:19:06.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Mar-2025 18:19:06.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Mar-2025 18:19:06.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+31-Mar-2025 18:19:06.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Mar-2025 18:19:06.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2025 18:19:06.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:59166,suspend=y,server=n
+31-Mar-2025 18:19:06.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 18:19:06.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 18:19:06.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kairlytauk/Desktop/csi2132project/wapp2/temp
+31-Mar-2025 18:19:06.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/logging.properties
+31-Mar-2025 18:19:06.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2025 18:19:06.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Users/kairlytauk/Library/Caches/JetBrains/IntelliJIdea2024.3/captureAgent/debugger-agent.jar
+31-Mar-2025 18:19:06.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.creation.stack.trace=false
+31-Mar-2025 18:19:06.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Ddebugger.agent.enable.coroutines=true
+31-Mar-2025 18:19:06.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.flows.stack.trace=true
+31-Mar-2025 18:19:06.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.mutable.state.flows.stack.trace=true
+31-Mar-2025 18:19:06.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+31-Mar-2025 18:19:06.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+31-Mar-2025 18:19:06.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+31-Mar-2025 18:19:06.642 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kairlytauk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+31-Mar-2025 18:19:06.799 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:19:06.809 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [283] milliseconds
+31-Mar-2025 18:19:06.825 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2025 18:19:06.825 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.39]
+31-Mar-2025 18:19:06.830 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml]
+31-Mar-2025 18:19:07.018 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2025 18:19:07.031 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml] has finished in [201] ms
+31-Mar-2025 18:19:07.033 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:19:07.037 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [227] milliseconds
+31-Mar-2025 18:20:53.982 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:20:53.983 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2025 18:20:53.987 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [wapp2] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2025 18:20:53.990 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:20:53.992 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:20:54.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.39
+31-Mar-2025 18:20:54.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 4 2025 19:02:32 UTC
+31-Mar-2025 18:20:54.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.39.0
+31-Mar-2025 18:20:54.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+31-Mar-2025 18:20:54.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.3.2
+31-Mar-2025 18:20:54.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+31-Mar-2025 18:20:54.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/kairlytauk/Library/Java/JavaVirtualMachines/openjdk-23.0.2/Contents/Home
+31-Mar-2025 18:20:54.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+31-Mar-2025 18:20:54.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Mar-2025 18:20:54.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 18:20:54.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 18:20:54.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Mar-2025 18:20:54.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Mar-2025 18:20:54.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+31-Mar-2025 18:20:54.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Mar-2025 18:20:54.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2025 18:20:54.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:59179,suspend=y,server=n
+31-Mar-2025 18:20:54.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 18:20:54.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 18:20:54.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kairlytauk/Desktop/csi2132project/wapp2/temp
+31-Mar-2025 18:20:54.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/logging.properties
+31-Mar-2025 18:20:54.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2025 18:20:54.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Users/kairlytauk/Library/Caches/JetBrains/IntelliJIdea2024.3/captureAgent/debugger-agent.jar
+31-Mar-2025 18:20:54.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.creation.stack.trace=false
+31-Mar-2025 18:20:54.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Ddebugger.agent.enable.coroutines=true
+31-Mar-2025 18:20:54.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.flows.stack.trace=true
+31-Mar-2025 18:20:54.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.mutable.state.flows.stack.trace=true
+31-Mar-2025 18:20:54.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+31-Mar-2025 18:20:54.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+31-Mar-2025 18:20:54.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+31-Mar-2025 18:20:54.623 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kairlytauk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+31-Mar-2025 18:20:54.779 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:20:54.790 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [268] milliseconds
+31-Mar-2025 18:20:54.804 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2025 18:20:54.804 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.39]
+31-Mar-2025 18:20:54.807 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml]
+31-Mar-2025 18:20:54.996 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2025 18:20:55.012 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml] has finished in [204] ms
+31-Mar-2025 18:20:55.013 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:20:55.018 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [227] milliseconds
+31-Mar-2025 18:23:43.767 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:23:43.768 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2025 18:23:43.771 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [wapp2] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2025 18:23:43.775 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:23:43.777 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:23:44.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.39
+31-Mar-2025 18:23:44.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 4 2025 19:02:32 UTC
+31-Mar-2025 18:23:44.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.39.0
+31-Mar-2025 18:23:44.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+31-Mar-2025 18:23:44.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.3.2
+31-Mar-2025 18:23:44.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+31-Mar-2025 18:23:44.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/kairlytauk/Library/Java/JavaVirtualMachines/openjdk-23.0.2/Contents/Home
+31-Mar-2025 18:23:44.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+31-Mar-2025 18:23:44.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Mar-2025 18:23:44.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 18:23:44.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 18:23:44.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Mar-2025 18:23:44.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Mar-2025 18:23:44.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+31-Mar-2025 18:23:44.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Mar-2025 18:23:44.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2025 18:23:44.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:59194,suspend=y,server=n
+31-Mar-2025 18:23:44.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 18:23:44.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 18:23:44.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kairlytauk/Desktop/csi2132project/wapp2/temp
+31-Mar-2025 18:23:44.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/logging.properties
+31-Mar-2025 18:23:44.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2025 18:23:44.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Users/kairlytauk/Library/Caches/JetBrains/IntelliJIdea2024.3/captureAgent/debugger-agent.jar
+31-Mar-2025 18:23:44.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.creation.stack.trace=false
+31-Mar-2025 18:23:44.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Ddebugger.agent.enable.coroutines=true
+31-Mar-2025 18:23:44.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.flows.stack.trace=true
+31-Mar-2025 18:23:44.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.mutable.state.flows.stack.trace=true
+31-Mar-2025 18:23:44.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+31-Mar-2025 18:23:44.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+31-Mar-2025 18:23:44.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+31-Mar-2025 18:23:44.504 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kairlytauk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+31-Mar-2025 18:23:44.754 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:23:44.770 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [397] milliseconds
+31-Mar-2025 18:23:44.796 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2025 18:23:44.796 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.39]
+31-Mar-2025 18:23:44.802 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml]
+31-Mar-2025 18:23:44.990 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2025 18:23:45.004 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml] has finished in [202] ms
+31-Mar-2025 18:23:45.006 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:23:45.011 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [240] milliseconds
+31-Mar-2025 18:25:10.271 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:25:10.273 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2025 18:25:10.279 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:25:10.281 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:25:10.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.39
+31-Mar-2025 18:25:10.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 4 2025 19:02:32 UTC
+31-Mar-2025 18:25:10.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.39.0
+31-Mar-2025 18:25:10.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+31-Mar-2025 18:25:10.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.3.2
+31-Mar-2025 18:25:10.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+31-Mar-2025 18:25:10.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/kairlytauk/Library/Java/JavaVirtualMachines/openjdk-23.0.2/Contents/Home
+31-Mar-2025 18:25:10.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+31-Mar-2025 18:25:10.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Mar-2025 18:25:10.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 18:25:10.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 18:25:10.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Mar-2025 18:25:10.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Mar-2025 18:25:10.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+31-Mar-2025 18:25:10.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Mar-2025 18:25:10.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2025 18:25:10.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:59204,suspend=y,server=n
+31-Mar-2025 18:25:10.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 18:25:10.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 18:25:10.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kairlytauk/Desktop/csi2132project/wapp2/temp
+31-Mar-2025 18:25:10.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/logging.properties
+31-Mar-2025 18:25:10.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2025 18:25:10.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Users/kairlytauk/Library/Caches/JetBrains/IntelliJIdea2024.3/captureAgent/debugger-agent.jar
+31-Mar-2025 18:25:10.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.creation.stack.trace=false
+31-Mar-2025 18:25:10.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Ddebugger.agent.enable.coroutines=true
+31-Mar-2025 18:25:10.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.flows.stack.trace=true
+31-Mar-2025 18:25:10.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.mutable.state.flows.stack.trace=true
+31-Mar-2025 18:25:10.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+31-Mar-2025 18:25:10.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+31-Mar-2025 18:25:10.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+31-Mar-2025 18:25:10.972 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kairlytauk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+31-Mar-2025 18:25:11.144 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:25:11.155 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [300] milliseconds
+31-Mar-2025 18:25:11.176 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2025 18:25:11.176 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.39]
+31-Mar-2025 18:25:11.181 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml]
+31-Mar-2025 18:25:11.371 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2025 18:25:11.385 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml] has finished in [204] ms
+31-Mar-2025 18:25:11.386 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:25:11.392 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [235] milliseconds
+31-Mar-2025 18:33:17.465 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:33:17.466 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2025 18:33:17.470 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [wapp2] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2025 18:33:17.474 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:33:17.476 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:33:18.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.39
+31-Mar-2025 18:33:18.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 4 2025 19:02:32 UTC
+31-Mar-2025 18:33:18.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.39.0
+31-Mar-2025 18:33:18.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+31-Mar-2025 18:33:18.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.3.2
+31-Mar-2025 18:33:18.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+31-Mar-2025 18:33:18.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/kairlytauk/Library/Java/JavaVirtualMachines/openjdk-23.0.2/Contents/Home
+31-Mar-2025 18:33:18.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7-58
+31-Mar-2025 18:33:18.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Mar-2025 18:33:18.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 18:33:18.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 18:33:18.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Mar-2025 18:33:18.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Mar-2025 18:33:18.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+31-Mar-2025 18:33:18.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Mar-2025 18:33:18.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2025 18:33:18.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:59521,suspend=y,server=n
+31-Mar-2025 18:33:18.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kairlytauk/Downloads/apache-tomcat-10.1.39
+31-Mar-2025 18:33:18.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kairlytauk/Desktop/csi2132project/wapp2
+31-Mar-2025 18:33:18.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kairlytauk/Desktop/csi2132project/wapp2/temp
+31-Mar-2025 18:33:18.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/logging.properties
+31-Mar-2025 18:33:18.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2025 18:33:18.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Users/kairlytauk/Library/Caches/JetBrains/IntelliJIdea2024.3/captureAgent/debugger-agent.jar
+31-Mar-2025 18:33:18.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.creation.stack.trace=false
+31-Mar-2025 18:33:18.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Ddebugger.agent.enable.coroutines=true
+31-Mar-2025 18:33:18.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.flows.stack.trace=true
+31-Mar-2025 18:33:18.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkotlinx.coroutines.debug.enable.mutable.state.flows.stack.trace=true
+31-Mar-2025 18:33:18.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+31-Mar-2025 18:33:18.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+31-Mar-2025 18:33:18.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+31-Mar-2025 18:33:18.102 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/kairlytauk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+31-Mar-2025 18:33:18.263 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:33:18.273 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [279] milliseconds
+31-Mar-2025 18:33:18.288 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2025 18:33:18.288 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.39]
+31-Mar-2025 18:33:18.291 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml]
+31-Mar-2025 18:33:18.483 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+31-Mar-2025 18:33:18.496 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/Users/kairlytauk/Desktop/csi2132project/wapp2/conf/Catalina/localhost/wapp2.xml] has finished in [205] ms
+31-Mar-2025 18:33:18.497 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8083"]
+31-Mar-2025 18:33:18.503 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [228] milliseconds
