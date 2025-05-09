@@ -17,7 +17,7 @@
             margin-bottom: 20px;
         }
         .button-bar button {
-            background-color: #5cb85c;
+            background-color: black;
             color: #fff;
             border: none;
             padding: 8px 15px;
@@ -26,7 +26,7 @@
             margin-right: 10px;
         }
         .button-bar button:hover {
-            background-color: #4cae4c;
+            background-color: black;
         }
         .section {
             display: none; /* Hidden by default; toggled via JavaScript */
@@ -48,7 +48,7 @@
             margin-bottom: 10px;
         }
         input[type="submit"] {
-            background-color: #5cb85c;
+            background-color: black;
             color: #fff;
             cursor: pointer;
             border: none;
@@ -56,7 +56,7 @@
             border-radius: 3px;
         }
         input[type="submit"]:hover {
-            background-color: #4cae4c;
+            background-color: black;
         }
         table {
             width: 100%;
@@ -76,7 +76,7 @@
             background-color: #f1f1f1;
         }
         .actions button {
-            background-color: #5cb85c;
+            background-color: black;
             color: #fff;
             border: none;
             padding: 6px 12px;
@@ -84,7 +84,7 @@
             cursor: pointer;
         }
         .actions button:hover {
-            background-color: #4cae4c;
+            background-color: black;
         }
         .form-container {
             margin-bottom: 20px;
@@ -104,7 +104,7 @@
 </head>
 <body>
 <div style="margin-bottom: 10px;">
-    <a href="index.jsp" style="color: #5cb85c; text-decoration: none;">Go to Main Page</a>
+    <a href="index.jsp" style="color: black; text-decoration: underline;">Go to Main Page</a>
 </div>
 
 <h2>Employee Operations</h2>

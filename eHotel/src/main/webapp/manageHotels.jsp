@@ -6,12 +6,12 @@
         body { font-family: Arial, sans-serif; padding: 20px; background: #f9f9f9; }
         h2 { color: #333; }
         .nav { background: #eaf7ea; padding: 10px; margin-bottom: 20px; border-radius: 5px; }
-        .nav a { margin-right: 15px; color: #4cae4c; font-weight: bold; text-decoration: none; }
+        .nav a { margin-right: 15px; color: #0a0a0a; font-weight: bold; text-decoration: none; }
         .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 30px; }
         label { display: inline-block; width: 120px; margin-bottom: 10px; }
         input[type="text"] { width: 250px; padding: 6px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 10px; }
-        input[type="submit"], button { background: #5cb85c; color: white; border: none; padding: 8px 12px; border-radius: 4px; cursor: pointer; }
-        input[type="submit"]:hover, button:hover { background: #4cae4c; }
+        input[type="submit"], button { background: #0a0a0a; color: white; border: none; padding: 8px 12px; border-radius: 4px; cursor: pointer; }
+        input[type="submit"]:hover, button:hover { background: #0a0a0a; }
         table { width: 100%; border-collapse: collapse; background: white; border-radius: 5px; overflow: hidden; }
         th, td { padding: 10px; border-bottom: 1px solid #ddd; text-align: left; }
         th { background-color: #f2f2f2; }
@@ -38,13 +38,7 @@
     </script>
 </head>
 <body>
-<div class="nav">
-    <a href="index.jsp">Main Page</a>
-    <a href="manageCustomers.jsp">Manage Customers</a>
-    <a href="manageEmployees.jsp">Manage Employees</a>
-    <a href="manageHotels.jsp">Manage Hotels</a>
-    <a href="manageRooms.jsp">Manage Rooms</a>
-</div>
+<%@ include file="admin-navbar.html" %>
 
 <h2>Manage Hotels</h2>
 
