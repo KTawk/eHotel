@@ -38,7 +38,7 @@
 
     <div style="margin: 0 auto 30px; font-size: 20px; line-height: 1.8; max-width: 800px; margin: 0 auto 40px;">
         <p><strong>Address:</strong> 123 Velvet Avenue, Ottawa, ON</p>
-        <p><strong>Phone:</strong> +1 (613) 555-9876</p>
+        <p><strong>Phone:</strong> +1 (343) 988-0877</p>
         <p><strong>Email:</strong> <a href="mailto:info@velvetnights.com">info@velvetnights.com</a></p>
     </div>
 
