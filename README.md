@@ -24,8 +24,8 @@ eHotel is a full-stack hotel management web application built using Java, JSP/Se
 🔄 Session handling for persistent user state across pages
 
 
-🔧 Tech Stack
 
+🔧 Tech Stack
 
 Frontend: HTML, CSS, JSP
 Backend: Java, Servlets (Jakarta EE)
@@ -36,11 +36,11 @@ Tools: Apache Tomcat 10, Maven, IntelliJ IDEA
 
 🚀 Getting Started
 
-
 Clone the repo
 Set up a PostgreSQL database and configure DB credentials in your servlets
 Run with Apache Tomcat 10
 Access the app at the link given in the terminal
+
 
 
 📌 Skills Learned
