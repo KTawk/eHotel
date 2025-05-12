@@ -27,7 +27,7 @@ Tools: Apache Tomcat 10, Maven, IntelliJ IDEA
 Clone the repo
 Set up a PostgreSQL database and configure DB credentials in your servlets
 Run with Apache Tomcat 10
-Access the app at http://localhost:8080/eHotel
+Access the app at the link given in the terminal
 
 
 📌 Skills Learned
