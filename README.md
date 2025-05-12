@@ -7,8 +7,11 @@ eHotel is a full-stack hotel management web application built using Java, JSP/Se
 ✨ Features
 
 🔐 Secure Login/Signup System with SHA-256 hashed passwords
+
 👥 Role-Based Access Control for Customers, Employees, and Admins
+
 🧾 Room Booking with dynamic availability filtering by date, area, price, and more
+
 🏨 Hotel and Room Management (admin/employee side)
 📋 Form validation for signup fields (phone, email, password)
 📱 Responsive UI built with HTML/CSS for a modern user experience
