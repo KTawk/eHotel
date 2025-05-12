@@ -6,6 +6,7 @@ eHotel is a full-stack hotel management web application built using Java, JSP/Se
 
 ✨ Features
 
+
 🔐 Secure Login/Signup System with SHA-256 hashed passwords
 
 👥 Role-Based Access Control for Customers, Employees, and Admins
@@ -13,11 +14,18 @@ eHotel is a full-stack hotel management web application built using Java, JSP/Se
 🧾 Room Booking with dynamic availability filtering by date, area, price, and more
 
 🏨 Hotel and Room Management (admin/employee side)
+
 📋 Form validation for signup fields (phone, email, password)
+
 📱 Responsive UI built with HTML/CSS for a modern user experience
+
 🗄️ PostgreSQL integration using JDBC and SQL joins for robust querying
+
 🔄 Session handling for persistent user state across pages
+
+
 🔧 Tech Stack
+
 
 Frontend: HTML, CSS, JSP
 Backend: Java, Servlets (Jakarta EE)
@@ -25,7 +33,9 @@ Database: PostgreSQL
 Tools: Apache Tomcat 10, Maven, IntelliJ IDEA
 
 
+
 🚀 Getting Started
+
 
 Clone the repo
 Set up a PostgreSQL database and configure DB credentials in your servlets
