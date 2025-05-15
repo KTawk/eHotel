@@ -25,11 +25,6 @@ eHotel is a full-stack hotel management web application built using Java, JSP/Se
 
 
 
-
-
-
-
-
 🔧 Tech Stack
 
 Frontend: HTML, CSS, JSP
